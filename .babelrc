@@ -1,0 +1,11 @@
+{
+    "plugins": [
+      ["module-resolver", {
+        "root": ["./src"],
+        "alias": {
+          "page": "./page",
+          "underscore": "lodash"
+        }
+      }]
+    ]
+  }
