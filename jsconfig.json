@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "*": ["src/*"],
+        "page/*": ["page/*"],
+        "components/*": ["components/*"],
+        "underscore": ["lodash"]
+      }
+    }
+  }

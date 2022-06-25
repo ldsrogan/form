@@ -1,0 +1,17 @@
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .required-fields {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signin-icon {
+        width: 100px;
+        height: 100px;
+    }
+}
