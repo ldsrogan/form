@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import AssignmentIcon from '@mui/icons-material/Assignment'
 import Button from '@mui/material/Button'
-
+import { ids } from '../data/stakes'
 import { SelectBox, TextField } from '../components'
 
 import './signin.style.scss'
@@ -20,7 +20,7 @@ const SignInPage = () => {
                 <SelectBox
                     label="스테이크"
                     value={stake}
-                    items={[{ key: '서울 스테이크', value: '서울 스테이크' }]}
+                    items={ids.map((id) => ({ key: id, value: id }))}
                     onChange={(e) => {
                         setStake(e.target.value)
                     }}
